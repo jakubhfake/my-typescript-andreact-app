@@ -1,8 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {Dialog} from "./components/common/Dialog/Dialog";
 
-function App() {
+export const App = () => {
   return (
     <div className="App">
       <header className="App-header">
@@ -18,9 +19,9 @@ function App() {
         >
           Learn React
         </a>
+        <Dialog title={'123'} children={'dsdsdfsfasd'}/>
+        <h1>Wstawić</h1>
       </header>
     </div>
   );
 }
-
-export default App;
